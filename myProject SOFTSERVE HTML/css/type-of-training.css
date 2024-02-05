@@ -1,0 +1,83 @@
+.training-block {
+    background-color: var(--black-color);
+    padding-top: 40px;
+    padding-bottom: 80px;
+  
+  }
+  
+  .training-block__text {
+    text-align: center;
+  }
+  
+  .training-block__title {
+    font-family: "Homemade Apple", undefined;
+    color: var(--red-color);
+    font-weight: 400;
+    letter-spacing: 1.3px;
+    line-height: 37.18px;
+    font-size: 26px;
+  }
+  
+  .training-block__subtitle {
+    margin-top: 20px;
+    font-family: Rajdhani, sans-serif;
+    font-size: 47px;
+    font-weight: 700;
+    line-height: 56px;
+    color: var(--classic-white);
+  }
+  
+  .training-block__description {
+    margin-top: 15px;
+    font-family: "Roboto", "sans-serif";
+    color: var(--text-description-about-us);
+    font-weight: 500;
+    line-height: 28.08px;
+    font-size: 18px;
+  }
+  
+  .cta-button {
+    color: var(--classic-white);
+    background-color: var(--red-color);
+    font-family: Roboto, sans-serif;
+    display: inline-block;
+    padding: 15px 30px;
+    font-size: 13.2px;
+    font-stretch: 100%;
+    text-decoration: none;
+    border: none;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  .cta-button:hover {
+    color: var(--black-color);
+    background-color: var(--classic-white);
+  }
+  
+  @media screen and (max-width: 768px) {
+    .training-block__title {
+      font-size: 20px;
+    }
+  
+    .training-block__subtitle {
+      font-size: 32px;
+      line-height: 38px;
+    }
+  
+    .training-block__description {
+      font-size: 16px;
+      line-height: 24px;
+    }
+  
+    .cta-button {
+      padding: 12px 24px;
+      font-size: 12px;
+    }
+  }
+
+  .carousel-caption {
+    display: block !important;
+    text-align: center;
+  }
+
+  

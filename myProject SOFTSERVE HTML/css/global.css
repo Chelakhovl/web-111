@@ -1,0 +1,23 @@
+@import "fonts.css";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  
+}
+
+:root {
+  --black-color: rgb(0, 0, 0);
+  --classic-white: rgb(255, 255, 255);
+  --red-color: rgb(214, 35, 36);
+  --text-description-about-us: rgb(112, 112, 112);
+  --methodology__block-second-background: rgb(241, 237, 225);
+  --methodology__block-third-background: rgb(30, 25, 23);
+  --class-boxing-background-color: rgb(241, 237, 225);
+  --background-shadow: rgba(0, 0, 0, 0.7);
+}
+
+.container {
+  max-width: 1200px;
+}

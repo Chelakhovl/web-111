@@ -1,0 +1,27 @@
+.bg-body-tertiary {
+    background-color: var(--black-color) !important;
+}
+
+.nav-link{
+    color:var(--classic-white);
+}
+
+.nav-link.active {
+    color: var(--classic-white) !important;
+}
+
+.nav-link,
+.nav-link:hover,
+.nav-link:focus {
+    color: var(--classic-white) !important; 
+}
+
+.navbar-toggler-icon {
+    background-color: var(--classic-white);
+}
+
+
+.nav-link:hover {
+    text-decoration: underline;
+}
+  

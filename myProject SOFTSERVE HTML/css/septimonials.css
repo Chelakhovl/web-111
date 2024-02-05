@@ -1,0 +1,103 @@
+.testimonials-block {
+  background-color: var(--class-boxing-background-color);
+  padding: 20px;
+  width: 100%;
+  
+  margin-left: -15px;
+}
+
+.testimonials__title {
+  font-family: "Homemade Apple", undefined;
+  color: var(--red-color);
+  font-weight: 400;
+  letter-spacing: 1.3px;
+  line-height: 37.18px;
+  font-size: 26px;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.testimonials__subtitle {
+  font-family: Rajdhani, sans-serif;
+  font-size: 56px;
+  font-weight: 700;
+  color: var(--black-color);
+  text-align: left;
+  margin-bottom: 10px;
+  padding-bottom: 20px;
+  line-height: 67.2px;
+  text-align: center;
+}
+
+.testimonials__description {
+  font-family: "Roboto", "sans-serif";
+  color: var(--text-description-about-us);
+  font-weight: 400;
+  line-height: 24px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.testimonial-slide {
+  position: relative;
+}
+
+.testimonial-slide__photo-container {
+  overflow: hidden;
+  border-radius: 50%;
+  margin: 0 auto;
+}
+
+.testimonial-slide__photo {
+  width: 100%;
+  height: auto;
+  border-radius: 50%;
+}
+
+.testimonial-slide__content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  width: 90%;
+  max-width: 400px;
+}
+
+.testimonial-slide__name,
+.testimonial-slide__quote,
+.testimonial-slide__date {
+  font-family: "Roboto", "sans-serif";
+  color: var(--classic-white);
+  font-weight: 400;
+  letter-spacing: 1.3px;
+  text-align: center;
+  margin: 0;
+  padding: 10px;
+  border-radius: 10px;
+  word-wrap: break-word;
+}
+
+@media (max-width: 768px) {
+  .testimonials__subtitle {
+    font-size: 36px;
+    line-height: 43.2px;
+  }
+
+  .testimonial-slide__name,
+  .testimonial-slide__quote,
+  .testimonial-slide__date {
+    font-size: 14px;
+    padding: 8px;
+  }
+}
+
+@media (max-width: 497px) {
+  .testimonial-slide__name,
+  .testimonial-slide__quote,
+  .testimonial-slide__date {
+    font-size: 8px;
+    padding: 5px;
+    max-width: 100%;
+  }
+}

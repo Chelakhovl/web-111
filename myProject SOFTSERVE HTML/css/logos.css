@@ -1,0 +1,11 @@
+
+.sponsors-carousel-block {
+    background-color: var(--class-boxing-background-color);
+    padding: 50px 0;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon{
+    background-color:var(--black-color);
+}
+

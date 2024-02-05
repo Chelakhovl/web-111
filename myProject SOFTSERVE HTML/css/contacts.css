@@ -1,0 +1,93 @@
+.contacts-block {
+    background-color: var(--black-color);
+    color: var(--classic-white);
+    padding: 50px 0;
+}
+
+.contacts__title {
+    font-family: "Homemade Apple", undefined;
+    color: var(--red-color);
+    font-weight: 400;
+    letter-spacing: 1.3px;
+    line-height: 37.18px;
+    font-size: 36px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.contacts__description {
+    font-family: "Roboto", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.5;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.contact-details {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.address,
+.phone,
+.email {
+    flex: 0 0 100%;  
+    margin-bottom: 20px; 
+}
+
+.address p,
+.phone p,
+.email p {
+    margin: 0;
+}
+
+.registration-form {
+    margin-top: 30px;
+    text-align: center;
+}
+
+.registration-form form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.registration-form input {
+    width: 48%;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.registration-form button {
+    width: auto;
+    padding: 10px;
+    background-color: var(--red-color);
+    color: var(--classic-white);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    display: inline-block;
+    margin: 0 auto;
+}
+
+.registration-form button:hover {
+    background-color: var(--classic-white);
+    color: var(--black-color);
+}
+
+/* Медіа-запит для адаптації на екрани менше 768px */
+@media (max-width: 768px) {
+    .contact-details {
+        flex-direction: column;
+    }
+
+    .registration-form input {
+        width: 100%;
+    }
+}

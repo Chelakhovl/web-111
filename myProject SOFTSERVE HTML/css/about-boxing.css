@@ -1,0 +1,151 @@
+.training-methodology-container {
+  overflow: hidden;
+}
+
+.methodology__block-first,
+.methodology__block-second,
+.methodology__block-third {
+  box-sizing: border-box;
+}
+
+.training-methodology-container {
+  overflow: hidden;
+}
+
+.methodology__content {
+  display: flex;
+  flex-direction: row;
+  flex-basis: 100%;
+  padding: 55px 120px;
+}
+
+.methodology__svg {
+  width: 100px;
+  margin-top: 20px;
+  margin-left: 40px;
+}
+
+.methodology__caption {
+  padding: 20px;
+}
+
+.methodology__title-first {
+  font-family: "Rajdhani", "sans-serif";
+  color: var(--classic-white);
+  font-weight: 700;
+  font-size: 36px;
+  margin-top: 20px;
+}
+
+.methodology__title-second {
+  font-family: "Rajdhani", "sans-serif";
+  color: var(--red-color);
+  font-weight: 700;
+  font-size: 36px;
+  margin-top: 20px;
+}
+
+.methodology__description-first {
+  font-family: "Roboto", sans-serif;
+  color: var(--classic-white);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  margin-top: 30px;
+}
+
+.methodology__description-second {
+  font-family: "Roboto", sans-serif;
+  color: var(--methodology__block-third-background);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  margin-top: 30px;
+}
+
+.methodology__block-first {
+  display: block;
+  background-image: url("../img/about-boxing-svg-diare-gloves.png");
+  background-color: var(--red-color);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+}
+
+.methodology__block-second {
+  display: block;
+  background-color: var(--methodology__block-second-background);
+  background-image: url("../img/about-boxing-background-grusha.png");
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+}
+
+.methodology__block-third {
+  display: block;
+  background-color: var(--methodology__block-third-background);
+  background-image: url("../img/about-boxing-svg-gloves.png");
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+}
+
+@media (max-width: 768px) {
+  .training-methodology-container {
+    overflow: hidden;
+  }
+
+  .methodology__block-first,
+  .methodology__block-second,
+  .methodology__block-third {
+    box-sizing: border-box;
+  }
+
+  .training-methodology-container {
+    overflow: hidden;
+  }
+
+  .methodology__content {
+    display: flex;
+    flex-direction: column;
+    padding: 55px 20px;
+
+    .methodology__svg {
+      width: 30%;
+      margin-top: 20px;
+      margin-left: 20px;
+    }
+
+    .methodology__caption {
+      padding: 20px;
+    }
+
+    .methodology__title-first,
+    .methodology__title-second {
+      font-size: 24px;
+      margin-top: 10px;
+    }
+
+    .methodology__description-first,
+    .methodology__description-second {
+      margin-top: 20px;
+    }
+
+    .methodology__block-first,
+    .methodology__block-second,
+    .methodology__block-third {
+      display: block;
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      width: 100%;
+      height: 100%;
+    }
+  }
+}

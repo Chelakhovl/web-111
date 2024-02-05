@@ -1,0 +1,151 @@
+.about-boxing-container {
+  background-image: url("../img/back.png");
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  height: 100vh;
+  padding: 95px 32px;
+  margin: 0 -15px;
+}
+
+.about-boxing-container_content {
+  padding-left: 15px;
+  padding-right: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  text-align: left;
+  max-width: 800px;
+  margin-top: 80px;
+  margin-bottom: 50px;
+}
+
+.about-boxing__title {
+  font-family: "Homemade Apple", undefined;
+  color: var(--red-color);
+  font-weight: 400;
+  letter-spacing: 1.3px;
+  line-height: 37.18px;
+  font-size: 26px;
+  text-align: left;
+  margin-bottom: 10px;
+}
+
+.about-boxing__description-title {
+  font-family: Rajdhani, sans-serif;
+  font-size: 47px;
+  font-weight: 700;
+  line-height: 1.4;
+  color: var(--classic-white);
+  text-align: left;
+  margin-bottom: 10px;
+}
+
+.about-boxing__description {
+  font-family: "Roboto", sans-serif;
+  color: var(--classic-white);
+  font-weight: 400;
+  line-height: 1.5;
+  margin-top: 15px;
+}
+
+.about-boxing__statistics {
+  margin-top: 15px;
+}
+
+.about-boxing__statistic_title {
+  font-family: Rajdhani, sans-serif;
+  font-size: 47px;
+  font-weight: 700;
+  line-height: 1.4;
+  color: var(--classic-white);
+  text-align: left;
+  margin-top: 15px;
+}
+
+.about-boxing__list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.about-boxing__item {
+  margin: 7.5px;
+  padding: 10px;
+  font-size: 16px;
+  font-family: "Roboto", sans-serif;
+  color: var(--classic-white);
+  font-weight: 400;
+}
+
+.about-boxing__item-int {
+  margin: 7.5px;
+  padding: 10px;
+  font-size: 65px;
+  font-family: "Roboto", sans-serif;
+  color: var(--red-color);
+  font-weight: 700;
+}
+
+@media screen and (max-width: 768px) {
+  .about-boxing-container {
+    padding: 60px 15px;
+  }
+
+  .about-boxing-container_content {
+    max-width: 100%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+
+  .about-boxing__title {
+    font-size: 22px;
+    margin-bottom: 8px;
+  }
+
+  .about-boxing__description-title {
+    font-size: 36px;
+    line-height: 1.2;
+    margin-bottom: 8px;
+  }
+
+  .about-boxing__statistics {
+    margin-top: 10px;
+  }
+
+  .about-boxing__statistic_title {
+    font-size: 36px;
+    line-height: 1.2;
+    margin-top: 10px;
+  }
+}
+
+.about-boxing__list {
+  margin: 0 -7.5px;
+}
+
+.about-boxing__item {
+  margin: 7.5px;
+  padding: 10px;
+  font-size: 14px;
+}
+
+.about-boxing__item-int {
+  margin: 7.5px;
+  padding: 10px;
+  font-size: 45px;
+}
+
+@media screen and (max-width: 350px) {
+  .about-boxing__item {
+    font-size: 8px;
+  }
+  .about-boxing__title {
+    margin-top: 15px;
+    font-size: 16px;
+  }
+}

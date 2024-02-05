@@ -1,0 +1,114 @@
+.schedule-block {
+  background-color: var(--class-boxing-background-color);
+  padding: 120px 50px;
+}
+
+.schedule__title {
+  font-family: "Homemade Apple", undefined;
+  color: var(--red-color);
+  font-weight: 500;
+  letter-spacing: 1.3px;
+  line-height: 37.18px;
+  font-size: 26px;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.schedule__subtitle {
+  font-family: Rajdhani, sans-serif;
+  font-size: 56px;
+  font-weight: 700;
+  color: var(--black-color);
+  text-align: left;
+  margin-bottom: 10px;
+  padding-bottom: 20px;
+  line-height: 67.2px;
+  text-align: center;
+}
+
+.schedule__table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 15px;
+}
+
+.schedule__table thead {
+  font-family: "Rajdhani", sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  text-align: left;
+  line-height: 1.4;
+  color: var(--classic-white);
+  margin-bottom: 10px;
+  background-color: var(--red-color);
+  color: var(--classic-white);
+}
+
+.schedule__table tbody {
+  font-family: Rajdhani, sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: var(--text-description-about-us);
+}
+
+.schedule__table th,
+.schedule__table td {
+  border: 1px solid var(--text-description-about-us);
+  padding: 10px;
+  text-align: left;
+}
+
+.schedule__table th {
+  background-color: var(--your-th-background-color);
+  color: var(--your-th-color);
+  font-weight: bold;
+}
+
+.schedule__table tr {
+  border-bottom: 1px solid var(--your-border-color);
+}
+
+@media (min-width: 768px) {
+  .schedule-block {
+    padding: 50px 20px;
+  }
+
+  .schedule__title {
+    font-size: 20px;
+  }
+
+  .schedule__subtitle {
+    font-size: 24px;
+    line-height: 30px;
+  }
+
+  .schedule__table th,
+  .schedule__table td {
+    padding: 8px;
+    text-align: center;
+  }
+}
+
+@media (min-width: 320px) {
+  .schedule-block {
+    padding: 30px 10px;
+  }
+
+  .schedule__title {
+    font-size: 10px;
+  }
+
+  .schedule__subtitle {
+    font-size: 20px;
+    line-height: 25px;
+  }
+
+  .schedule__table th,
+  .schedule__table td {
+    padding: 6px;
+  }
+}
+
+  .schedule__table {
+    margin-left:-12px; 
+  }

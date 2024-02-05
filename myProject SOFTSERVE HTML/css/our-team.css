@@ -1,0 +1,113 @@
+team-block {
+  padding: 100px 40px;
+  text-align: center;
+}
+
+.team__title {
+  font-family: "Homemade Apple", undefined;
+  color: var(--red-color);
+  font-weight: 400;
+  letter-spacing: 1.3px;
+  line-height: 37.18px;
+  font-size: 26px;
+  text-align: center;
+  margin-bottom: 10px;
+  margin-top:80px;
+}
+
+.team__subtitle {
+  font-family: Rajdhani, sans-serif;
+  font-size: 56px;
+  font-weight: 700;
+  color: var(--black-color);
+  text-align: left;
+  margin-bottom: 10px;
+  padding-bottom: 20px;
+  line-height: 67.2px;
+  text-align: center;
+}
+
+.team-members-container {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+  flex-wrap: wrap; 
+}
+
+.team-member {
+  position: relative;
+  cursor: pointer;
+  transition: transform 0.3s ease-in-out;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.team-member:hover {
+  transform: translateY(-10px);
+}
+
+.team-member__photo {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+  filter: brightness(80%);
+}
+
+.team-member__info {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(0, 0, 0, 0.8);
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+  display: none;
+}
+
+.team-member:hover .team-member__info {
+  display: block;
+}
+
+.team-member__name,
+.team-member__description {
+  color: var(--classic-white);
+  text-align: center;
+}
+
+.team-member__name {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.team-member__description {
+  font-size: 16px;
+}
+
+
+@media (min-width: 769px) {
+  .team-members-container {
+    flex-direction: row;
+    align-items: flex-start;
+
+    .team-member {
+      width: 30%;
+    }
+
+    .team__title {
+      font-size: 20px;
+    }
+
+    .team__subtitle {
+      font-size: 40px;
+    }
+
+    .team-member__name {
+      font-size: 16px;
+    }
+
+    .team-member__description {
+      font-size: 14px;
+    }
+  }
+}
