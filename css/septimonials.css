@@ -2,8 +2,6 @@
   background-color: var(--class-boxing-background-color);
   padding: 20px;
   width: 100%;
-  
-  margin-left: -15px;
 }
 
 .testimonials__title {
@@ -101,3 +99,10 @@
     max-width: 100%;
   }
 }
+
+@media (max-width: 320px) {
+  .testimonials-block {
+    margin-left: 0;
+  }
+}
+

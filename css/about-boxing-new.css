@@ -9,7 +9,6 @@
   justify-content: center;
   height: 100vh;
   padding: 95px 32px;
-  margin: 0 -15px;
 }
 
 .about-boxing-container_content {
@@ -93,8 +92,10 @@
 
 @media screen and (max-width: 768px) {
   .about-boxing-container {
-    padding: 60px 15px;
+    padding: 60px 30px;
+    margin-top: 10px;
   }
+
 
   .about-boxing-container_content {
     max-width: 100%;
